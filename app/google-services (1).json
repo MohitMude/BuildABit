@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "252156098621",
+    "firebase_url": "https://deadsec-d69cc.firebaseio.com",
+    "project_id": "deadsec-d69cc",
+    "storage_bucket": "deadsec-d69cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:252156098621:android:0abee4f95b09fdf8769254",
+        "android_client_info": {
+          "package_name": "com.iitism.buildabit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "252156098621-6u2196s3v0vickmei1odrsab9on88o32.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.iitism.buildabit",
+            "certificate_hash": "7f7f7f0443dc2a4800d4be9c1299634f6e45d908"
+          }
+        },
+        {
+          "client_id": "252156098621-gqfbta9qal93s2mp8u1qp0jagf9phvkc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFbwTVTwFobgOAlUD0vCrVW_Xw4gcl9sw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "252156098621-gqfbta9qal93s2mp8u1qp0jagf9phvkc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

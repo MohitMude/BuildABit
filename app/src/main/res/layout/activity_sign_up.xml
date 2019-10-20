@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="8dp"
+    android:background="@mipmap/background1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+
+
+            <EditText
+                android:id="@+id/edt_txt_sign_up_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Name"
+                android:autofillHints="true"
+                android:inputType="text"
+                android:maxLines="1"
+                android:singleLine="true"
+                />
+
+
+
+            <EditText
+                android:id="@+id/edt_txt_sign_up_club"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter your club"
+                android:maxLines="1"
+                android:singleLine="true"
+
+                />
+
+
+            <EditText
+                android:id="@+id/edt_txt_sign_up_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Email address"
+
+                android:maxLines="1"
+                android:singleLine="true"
+
+                />
+
+
+            <EditText
+                android:id="@+id/edt_txt_sign_up_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Password"
+
+                android:maxLines="1"
+                android:singleLine="true"
+
+                />
+
+
+            <EditText
+                android:id="@+id/edt_txt_sign_up_confirm_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Confirm password"
+
+                android:maxLines="1"
+                android:singleLine="true"
+
+                />
+
+        <Button
+            android:id="@+id/btn_sign_up"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:background="@color/btn_color"></Button>
+
+    </LinearLayout>
+</ScrollView>
+
